@@ -1,0 +1,37 @@
+MULTITHREADED MERGE SORT
+
+Working:
+1. If the array has only one element, then it is already sorted and the algorithm terminates.
+2. Otherwise, divide the array into two halves.
+3. Create two threads and assign each thread one half of the array to sort.
+4. Wait for both threads to finish sorting their assigned subarrays.
+5. Merge the two sorted subarrays into a single sorted array.
+6. Repeat steps 2-5 until the entire array is sorted.
+
+Advantages:
+1. It can significantly improve the performance of merge sort on multicore systems.
+2. It can scale to large arrays.
+3. It is relatively easy to implement.
+
+Disadvantages:
+1.It adds some overhead due to the need to create and manage threads.
+2. It can be complex to debug.
+3. It may not be as efficient as other sorting algorithms on single-core systems.
+
+
+MERGE SORT
+
+Working:
+1. If the array has only one element, then it is already sorted and the algorithm terminates.
+2. Otherwise, divide the array into two halves.
+3. Sort each half of the array recursively.
+4. Merge the two sorted subarrays into a single sorted array.
+
+Advantages:
+1. It is a very efficient sorting algorithm.
+2. It is a stable sorting algorithm, which means that it preserves the original order of equal   elements in the sorted array.
+3. It is a relatively easy algorithm to implement.
+
+Disadvantages:
+1. It requires additional memory to store the sorted subarrays.
+2. It can be inefficient for small arrays.
