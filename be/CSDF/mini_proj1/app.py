@@ -28,7 +28,7 @@ def init_video_capture():
 def send_alert_email():
     # Replace with your email and password
     sender_email = 'chinmaykale2020.comp@mmcoe.edu.in'
-    sender_password = 'C$K@3m501'
+    sender_password = 'enter your own pwd'
 
     # Recipient email
     recipient_email = 'parthbapat2020.comp@mmcoe.edu.in'
